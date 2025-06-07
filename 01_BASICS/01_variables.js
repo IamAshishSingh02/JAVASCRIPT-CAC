@@ -1,4 +1,4 @@
-/*
+/* 
 Prefer not ot use var
 because of issue in block scope and functional scope
 */
@@ -9,10 +9,10 @@ var accPass = "3143245"
 accCity = "weegb" // This one is wrost.
 let accState
 
-//accId = 23
+// accId = 23
 accEmail = "fvcvdf"
 accPass = "4324"
 accCity = "fe"
 
-//console.log(accId);
+// console.log(accId);
 console.table([accId, accEmail, accPass, accCity, accState])
