@@ -6,7 +6,7 @@ because of issue in block scope and functional scope
 const accId = 12434
 let accEmail = "fgegfrf@gmail.com"
 var accPass = "3143245"
-accCity = "weegb" //This one is wrost.
+accCity = "weegb" // This one is wrost.
 let accState
 
 //accId = 23
