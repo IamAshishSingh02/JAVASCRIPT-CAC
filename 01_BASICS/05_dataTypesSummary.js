@@ -1,4 +1,5 @@
 // Primitive[7 Types]- Call by Value
+// Uses Stack
 
 // String
 // Number
@@ -23,6 +24,7 @@ console.log(id === anotherId);
 const bigNumber = 3456543576654356754n
 
 // Non-Primitive- Call by Refrence
+// Uses Heap
 
 // Array
 // Objects
