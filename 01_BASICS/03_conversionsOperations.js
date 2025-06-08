@@ -1,7 +1,9 @@
+// ############# Conversions #############
+
 let score = "33abc"
 
 console.log(typeof score)
-console.log(typeof(score));
+console.log(typeof(score))
 
 let valInNumber = Number(score)
 console.log(valInNumber)
@@ -23,3 +25,17 @@ let num = 445
 let strNum = String(num)
 console.log(strNum)
 console.log(typeof strNum)
+
+// ############# Operations ##############
+
+let val = 3
+let negVal = -val
+console.log(negVal)
+
+let str1 = "Ashish"
+let str2 = " Hello"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2)
+
