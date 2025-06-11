@@ -1,5 +1,4 @@
-// singleton
-// Object.create()
+// Object.create() // singleton
 
 // object literals
 
@@ -27,3 +26,18 @@ console.log(jsUser["full Name"])
 
 // console.log(typeof jsUser.mySym) // undefined
 console.log(typeof jsUser[mySym])
+
+jsUser.age = 22 // changes age
+Object.freeze(jsUser) // Now you can't change or add values
+jsUser.age = 23
+console.log(jsUser)
+
+jsUser.greeting = function(){
+    console.log("Hello JS user")
+}
+jsUser.greeting()
+
+jsUser.greeting2 = function(){
+    console.log(`Hello JS user, ${this.fullName}`)
+}
+jsUser.greeting2()
