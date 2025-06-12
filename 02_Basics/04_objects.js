@@ -40,5 +40,21 @@ const users = [
 console.log(Object.keys(user))
 console.log(Object.values(user))
 console.log(Object.entries(user))
-
 console.log(user.hasOwnProperty("isLoggedIn"))
+
+// Concept of restructuring
+const course = {
+    courseName: "js",
+    price: "999",
+    instructor: "Ashish"
+}
+const {instructor: i} = course
+console.log(i)
+
+// Json
+
+// {
+//     "name": "Ashish",
+//     "courseName": "js",
+//     "price": "free"
+// }
