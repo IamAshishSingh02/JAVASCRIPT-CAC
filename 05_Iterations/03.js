@@ -21,6 +21,7 @@ for(const [key, value] of map){
    console.log(`${key}:-${value}`)
 }
 
+// Not working on objects
 const myObj = {
     game1: 'NFS',
     game2: 'Spiderman'
