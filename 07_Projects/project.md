@@ -1,11 +1,11 @@
 # Projects related to DOM
 
-## project link
+## Project practice link [stackblitz]
 [Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
 # Solution code
 
-## project 1
+## project 1 solution
 
 ```javascript
 console.log("Ashish")
@@ -64,7 +64,7 @@ form.addEventListener('submit', function (e) {
 
 ```
 
-## project 3 solution code
+## project 3 solution
 
 ```javascript
 const clock = document.getElementById('clock');
@@ -180,7 +180,7 @@ function newGame() {
 ```
 
 
-# Project 5 solution
+## Project 5 solution
 
 ```javascript
 const insert = document.getElementById('insert');
@@ -208,7 +208,7 @@ window.addEventListener('keydown', (e) => {
 
 ```
 
-# Project 6 Solution
+## Project 6 Solution
 
 ```javascript
 //generate a random color
